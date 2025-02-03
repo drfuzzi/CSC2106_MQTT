@@ -25,6 +25,9 @@ Figure 1: An Example of a MQTT Implementation
 ### 1. Setting Up MQTT Broker (on your laptop)
 We will use Mosquitto MQTT broker [version 2](http://www.steves-internet-guide.com/download/6-bit-mosquitto-v2/). After unzipping, update the configuration file (`mosquitto.conf`) to allow network address listening.
 
+![overview](https://github.com/user-attachments/assets/ccd7d55a-ce37-42c3-99f8-d6a004bc2fe9)
+Figure 2: Overview of the Lab Excercise
+
 #### Steps:
 - Update `mosquitto.conf` as shown in below.
 - Start the broker with `mosquitto -c mosquitto.conf -v` in the command prompt. Default port is 1883.
